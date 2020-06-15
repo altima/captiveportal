@@ -1,0 +1,7 @@
+version: "3"
+services:
+    captiveportal:
+        image: enno0815de/captiveportal
+        build: ./
+        ports:
+            - "80:10080"
